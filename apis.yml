@@ -1,7 +1,29 @@
 aid: jumba
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumba.png
 name: Jumba
-description: Jumba is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jumba is a Nairobi-based construction technology company founded in 2022 that
+  digitizes the sourcing and financing of construction materials across Africa.
+  Its B2B marketplace connects hardware retail stores and construction sites to
+  manufacturers and suppliers of materials such as cement, steel, tiles, plumbing,
+  electrical, paint and finishes, offering real-time price comparison and online
+  ordering. Jumba OS is a management application for tracking sales, inventory and
+  creditor accounts, while Jengwa provides buy-now-pay-later inventory financing.
+  The company operates a consumer mobile app and reports processing over 12.6
+  million cement bags through more than 1,350 hardware stores, and is backed by
+  Speedinvest. Jumba does not publish a public API; its developer presence is
+  limited to open-source tooling on its GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/jumba/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,39 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- Construction Technology
+- B2B Marketplace
+- Building Materials
+- Fintech
+- BNPL
+- Africa
+- Kenya
 apis: []
+common:
+- type: Website
+  url: https://www.jumba.com/
+- type: DeveloperPortal
+  url: https://developers.jumba.com/
+- type: GitHubOrganization
+  url: https://github.com/thejumba
+- type: SignUp
+  url: https://link.jumba.com/e/jumbaos-signup
+- type: LinkedIn
+  url: https://ke.linkedin.com/company/thejumba
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
