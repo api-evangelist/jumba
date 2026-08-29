@@ -36,6 +36,9 @@ description: >-
   Speedinvest. Jumba does not publish a public API; its developer presence is
   limited to open-source tooling on its GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/jumba/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Jumba does not publish a public API; its developer presence is limited to open-source tooling on its GitHub organization."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
